@@ -1,0 +1,29 @@
+{
+  "name": "pwa-manifest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd .env micro-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worona/pwa-manifest.git"
+  },
+  "author": "eduardo@worona.org, luis@worona.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/worona/pwa-manifest/issues"
+  },
+  "homepage": "https://github.com/worona/pwa-manifest#readme",
+  "private": true,
+  "dependencies": {
+    "micro": "^9.0.0",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "env-cmd": "^7.0.0",
+    "micro-dev": "^1.2.3"
+  }
+}
