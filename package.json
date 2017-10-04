@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "env-cmd .env micro-dev"
+    "dev": "env-cmd .env node --inspect ./node_modules/.bin/micro-dev"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   "private": true,
   "dependencies": {
     "micro": "^9.0.0",
-    "mongodb": "^2.2.31"
+    "mongodb": "^2.2.31",
+    "path-to-regexp": "^2.0.0",
+    "shorthash": "0.0.2"
   },
   "devDependencies": {
     "env-cmd": "^7.0.0",
